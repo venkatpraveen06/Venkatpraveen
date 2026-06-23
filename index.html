@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Venkat Praveen, Full Stack Developer and AI & Data Science student. Explore projects, skills, services, achievements, and contact details.">
+  <meta name="keywords" content="Venkat Praveen, portfolio, full stack developer, AI data science student, web developer, freelancer">
+  <meta name="author" content="Venkat Praveen">
+  <title>Venkat Praveen | Full Stack Developer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <div class="loader" id="loader" aria-label="Loading portfolio">
+    <div class="loader-intro">
+      <div class="loader-mark"><img src="assets/53220.jpg" alt="" aria-hidden="true"></div>
+      <div class="loader-name">
+        <span>Welcome</span>
+        <strong>Venkat Praveen</strong>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Venkat Praveen home">
+        <span><img src="assets/23.jpg" alt="" aria-hidden="true"></span>
+        <strong>Venkat Praveen</strong>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home" aria-labelledby="hero-title">
+      <canvas id="particleCanvas" aria-hidden="true"></canvas>
+      <div class="orb orb-one" aria-hidden="true"></div>
+      <div class="orb orb-two" aria-hidden="true"></div>
+      <div class="hero-grid content-wrap">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Available for internships, placements, and freelance work</p>
+          <h1 id="hero-title">Venkat Praveen</h1>
+          <p class="hero-role">Full Stack Developer | AI &amp; Data Science Student</p>
+          <p class="hero-intro" style="text-align: justify;">
+            I build refined digital experiences that combine clean interfaces, reliable frontend logic,
+            and a growing foundation in artificial intelligence and data science.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="assets/venkatpraveen.pdf" download>Download Resume</a>
+            <a class="btn btn-soft" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="profile-card tilt-card">
+            <div class="photo-shell">
+              <img src="assets/53220.jpg" alt="Professional photo of Venkat Praveen" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+              <div class="photo-fallback" aria-label="Venkat Praveen profile placeholder">VP</div>
+            </div>
+            <div class="profile-meta">
+              <span>Developer</span>
+              <strong>AI-focused web experiences</strong>
+            </div>
+          </div>
+          <div class="floating-badge badge-one">AI + Web</div>
+          <div class="floating-badge badge-two">Freelance Ready</div>
+          <div class="floating-badge badge-three">Data Driven</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="content-wrap split">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About Me</p>
+          <h2 id="about-title">A builder with curiosity, discipline, and product taste.</h2>
+        </div>
+        <div class="about-panel glass reveal">
+          <p class="hero-intro" style="text-align: justify;">
+            I am Venkat Praveen, an AI &amp; Data Science student, web developer, problem solver,
+            freelancer, and technology enthusiast. I enjoy transforming ideas into responsive,
+            polished websites that feel fast, useful, and visually sharp.
+          </p>
+          <div class="about-grid">
+            <article>
+              <span>Education</span>
+              <p class="hero-intro" style="text-align: justify;">Studying AI &amp; Data Science with a strong focus on programming,data analysis, and web technologies.</p>
+            </article>
+            <article>
+              <span>Career Goals</span>
+              <p class="hero-intro" style="text-align: justify;">To grow as a fullstack,developer,contribute to startup products, and build intelligent user-first software.</p>
+            </article>
+            <article>
+              <span>Interests</span>
+              <p class="hero-intro" style="text-align: justify;">Modern UI design, AI tools, automation, analytics, entrepreneurship, and continuous learning.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills" aria-labelledby="skills-title">
+      <div class="content-wrap">
+        <div class="section-heading center reveal">
+          <p class="eyebrow">Skills</p>
+          <h2 id="skills-title">Practical tools for building beautiful, useful products.</h2>
+        </div>
+        <div class="skill-groups">
+          <article class="skill-card glass reveal" data-progress="92">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Angular</li>
+            </ul>
+            <div class="progress"><span></span></div>
+          </article>
+          <article class="skill-card glass reveal" data-progress="82">
+            <h3>Programming</h3>
+            <ul>
+              <li>Python</li>
+              <li>C</li>
+            </ul>
+            <div class="progress"><span></span></div>
+          </article>
+          <article class="skill-card glass reveal" data-progress="88">
+            <h3>Tools</h3>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VS Code</li>
+              <li>Figma</li>
+            </ul>
+            <div class="progress"><span></span></div>
+          </article>
+          <article class="skill-card glass reveal" data-progress="76">
+            <h3>AI &amp; Data Science</h3>
+            <ul>
+              <li>Machine Learning Basics</li>
+              <li>Pandas</li>
+              <li>NumPy</li>
+              <li>Data Analysis</li>
+            </ul>
+            <div class="progress"><span></span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects" aria-labelledby="projects-title">
+      <div class="content-wrap">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Featured Projects</p>
+          <h2 id="projects-title">Selected work made for learning, clients, and product thinking.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card glass tilt-card reveal">
+            <div class="project-image cognivex">
+              <img src="assets/Projects/Cognivex.png" alt="Cognivex technology website preview">
+            </div>
+            <div class="project-body">
+              <h3>Cognivex</h3>
+              <p class="hero-intro" style="text-align: justify;">Premium startup technology website with modern sections, strong branding, and responsive presentation.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="card-actions"><a href="https://cognivex-tec.vercel.app/" aria-label="Cognivex live demo">Live Demo</a><a href="https://github.com/venkatpraveen06/Cognivex.git" aria-label="Cognivex GitHub">GitHub</a></div>
+            </div>
+          </article>
+          <article class="project-card glass tilt-card reveal">
+            <div class="project-image restaurant">
+              <img src="assets/Projects/visa.png" alt="Visa application portal website preview">
+            </div>
+            <div class="project-body">
+              <h3>Visa Application Portal Website</h3>
+              <p class="hero-intro" style="text-align: justify;">A modern visa services website designed to simplify application and inquiry processes.</p>
+              <div class="tags"><span>JavaScript</span><span>UI</span><span>Data</span></div>
+              <div class="card-actions"><a href="https://visa-application-portal-one.vercel.app/">Live Demo</a><a href="https://github.com/venkatpraveen06/Visa-Application-Portal.git">GitHub</a></div>
+            </div>
+          </article>
+          <article class="project-card glass tilt-card reveal">
+            <div class="project-image ai-food">
+              <img src="assets/Projects/Autoparts.png" alt="AI food recommendation system preview">
+            </div>
+            <div class="project-body">
+              <h3>Auto Parts E-Commerce Website</h3>
+              <p class="hero-intro" style="text-align: justify;">An automotive e-commerce platform for browsing and purchasing vehicle spare parts online.</p>
+              <div class="tags"><span>Python</span><span>AI</span><span>ML</span></div>
+              <div class="card-actions"><a href="https://auto-parts-rosy.vercel.app/">Live Demo</a><a href="https://github.com/venkatpraveen06/Auto-Parts.git">GitHub</a></div>
+            </div>
+          </article>
+          <article class="project-card glass tilt-card reveal">
+            <div class="project-image portfolio">
+              <img src="assets/Projects/It.png" alt="Portfolio website preview">
+            </div>
+            <div class="project-body">
+              <h3>IT Solutions & Services Website</h3>
+              <p class="hero-intro" style="text-align: justify;">A professional business website showcasing IT services, solutions, and company expertise.</p>
+              <div class="tags"><span>HTML5</span><span>CSS3</span><span>JS</span></div>
+              <div class="card-actions"><a href="https://it-solutions-services-website.vercel.app/">Live Demo</a><a href="https://github.com/venkatpraveen06/IT-Solutions-Services-Website.git">GitHub</a></div>
+            </div>
+          </article>
+          <article class="project-card glass tilt-card reveal">
+            <div class="project-image ecommerce">
+              <img src="assets/Projects/food.png" alt="E-commerce website preview">
+            </div>
+            <div class="project-body">
+              <h3>Online Food Ordering Website</h3>
+              <p>A responsive food delivery platform that allows users to browse menus and order food online.</p>
+              <div class="tags"><span>Responsive</span><span>Frontend</span><span>UX</span></div>
+              <div class="card-actions"><a href="https://onlinefood-sepia.vercel.app/">Live Demo</a><a href="https://github.com/venkatpraveen06/onlinefood.git">GitHub</a></div>
+            </div>
+          </article>
+          <article class="project-card glass tilt-card reveal">
+            <div class="project-image ecommerce">
+              <img src="assets/Projects/card.png" alt="E-commerce website preview">
+            </div>
+            <div class="project-body">
+              <h3>ATM Card Banking System</h3>
+              <p>A responsive banking interface that simulates ATM card operations and digital banking services.</p>
+              <div class="tags"><span>Responsive</span><span>Frontend</span><span>UX</span></div>
+              <div class="card-actions"><a href="https://atm-card-delta.vercel.app/">Live Demo</a><a href="https://github.com/venkatpraveen06/ATM-Card.git">GitHub</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="content-wrap">
+        <div class="section-heading center reveal">
+          <p class="eyebrow">Services</p>
+          <h2 id="services-title">Focused services for founders, students, and small businesses.</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card glass reveal"><span>01</span><h3>Website Design</h3><p>Premium visual direction for memorable web experiences.</p></article>
+          <article class="service-card glass reveal"><span>02</span><h3>Frontend Development</h3><p>Responsive, animated, and accessible interfaces.</p></article>
+          <article class="service-card glass reveal"><span>03</span><h3>Portfolio Development</h3><p>Career-ready portfolios for internships and placements.</p></article>
+          <article class="service-card glass reveal"><span>04</span><h3>Landing Page Design</h3><p>High-impact pages for products, events, and campaigns.</p></article>
+          <article class="service-card glass reveal"><span>05</span><h3>UI/UX Design</h3><p>Clean flows, polished layouts, and usable interactions.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience" aria-labelledby="experience-title">
+      <div class="content-wrap split">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Experience</p>
+          <h2 id="experience-title">Freelance work with a product-minded approach.</h2>
+        </div>
+        <div class="timeline reveal">
+          <article class="timeline-item glass">
+            <time>2025 - Present</time>
+            <h3>Freelance Web Developer</h3>
+            <p>Building responsive websites, UI/UX layouts, landing pages, and client-focused web projects.</p>
+            <ul>
+              <li>Website Development</li>
+              <li>Responsive Design</li>
+              <li>UI/UX Design</li>
+              <li>Client Projects</li>
+            </ul>
+          </article>
+          <article class="timeline-item glass">
+            <time>2023-2027 </time>
+            <h3>Student</h3>
+            <p>Bachelor of Technology OF Computer Science Engineering</p>
+            <p class="hero-intro" style="text-align: justify;">
+              Motivated Computer Science undergraduate at KL University specializing in AI and NLP, skilled in Python, SQL, and data-driven solutions across web development, cloud computing, and analytics.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section certifications" id="certifications" aria-labelledby="cert-title">
+      <div class="content-wrap">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Certifications</p>
+          <h2 id="cert-title">Learning milestones and professional credentials.</h2>
+        </div>
+        <div class="cert-grid">
+          <article class="cert-card glass reveal"><span>Infosys</span><h3>Infosys Springboard</h3><p>Certificate placeholder</p></article>
+          <article class="cert-card glass reveal"><span>Coursera</span><h3>Coursera</h3><p>Certificate placeholder</p></article>
+          <article class="cert-card glass reveal"><span>NPTEL</span><h3>NPTEL</h3><p>Certificate placeholder</p></article>
+          <article class="cert-card glass reveal"><span>Google</span><h3>Google</h3><p>Certificate placeholder</p></article>
+          <article class="cert-card glass reveal"><span>Microsoft</span><h3>Microsoft</h3><p>Certificate placeholder</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section achievements" id="achievements" aria-labelledby="achievements-title">
+      <div class="content-wrap">
+        <div class="section-heading center reveal">
+          <p class="eyebrow">Achievements</p>
+          <h2 id="achievements-title">A snapshot of growth and momentum.</h2>
+        </div>
+        <div class="counter-grid">
+          <article class="counter-card glass reveal"><strong data-count="12">0</strong><span>Projects Completed</span></article>
+          <article class="counter-card glass reveal"><strong data-count="8">0</strong><span>Certifications Earned</span></article>
+          <article class="counter-card glass reveal"><strong data-count="18">0</strong><span>Technologies Learned</span></article>
+          <article class="counter-card glass reveal"><strong data-count="5">0</strong><span>Freelance Projects</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="content-wrap contact-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Let us build something sharp, useful, and memorable.</h2>
+          <div class="contact-list">
+            <a href="mailto:venkatpraveens2006@gmail.com">venkatpraveens2006@gmail.com</a>
+            <a href="tel:+83419 93998">+91 83419 93998</a>
+            <a href="https://www.linkedin.com/in/yerra-venkat-praveen-mallik-241b51280" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/venkatpraveen06" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://wa.me/918341993998" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+        <form class="contact-form glass reveal" id="contactForm" novalidate>
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required minlength="2">
+            <span class="error"></span>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required>
+            <span class="error"></span>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Tell me about your project" required minlength="10"></textarea>
+            <span class="error"></span>
+          </label>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="content-wrap footer-grid">
+      <div>
+        <a class="brand" href="#home"><span><img src="assets/53220.jpg" alt="" aria-hidden="true"></span><strong>Venkat Praveen</strong></a>
+        <p>Copyright 2026 Venkat Praveen. All rights reserved.</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/yerra-venkat-praveen-mallik-241b51280" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/venkatpraveen06" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+    <a class="back-top" href="#home" aria-label="Back to top">Top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
